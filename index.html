@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design Furniture</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navigation">
+            <nav>
+                <div class="nav-logo">
+                    <a href="#home">
+                        <img src="./images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#our-chairs">Selection</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn pry-btn">Contuct Us</button>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="container">
+                <img src="./images/logo.svg" class="home-icon" alt="logo">
+                <h1>Modern chairs crafted with love</h1>
+                <h2>We love creating high quality and comfortable chairs</h2>
+                <a href="#our-chairs" class="btn">Discover our chair selection</a>
+            </div>
+        </section>
+        <section id="our-chairs">
+            <header>
+                <h2 class="intro">The Selection</h2>
+                <h3>our chairs</h3>
+                <p>
+                    We mostly sell one-off items. That means that we make one-of-a-kind furniture pieces so whoever buys it will have a unique item.
+                </p>
+            </header>
+            <div class="container">
+                <div class="gallery">
+                    <div class="card">
+                        <img src="./images/furniture-1.jpg" alt="chair">
+                        <div class="card-info">
+                            <p class="number">01</p>
+                            <h4>Tufted white leather sofa chair</h4>
+                            <p>
+                                this will fit perfectly in any beauty salon or modern home thanks to its timeless design
+                            </p>
+                            <p class="price">
+                                $289
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/furniture-2.jpg" alt="classy chair">
+                        <div class="card-info">
+                            <p class="number">02</p>
+                            <h4>
+                                Black and brown wooden chair
+                            </h4>
+                            <p>
+                                Both minimalistic and comfortable, this is a great choice for home or office
+                            </p>
+                            <p class="price">
+                                $99
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/furniture-3.jpg" alt="stool chair">
+                        <div class="card-info">
+                            <p class="number">03</p>
+                            <h4>
+                                Rustic wooden bar stool
+                            </h4>
+                            <p>
+                                Made from solid beech wood,this piece will fit nicely in your rustic kitchen
+                            </p>
+                            <p class="price">
+                                $139
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <P>
+                    Interested in our products?
+                    <a href="#contact">send us a message</a>
+                    or
+                    <a href="#store">visit our store</a>
+                </P>
+            </div>
+        </section>
+        <section id="contact">
+            <header>
+                <h2 class="intro">Contact us</h2>
+                <h3>Let's get in touch</h3>
+            </header>
+            <div class="container small">
+                <form action="" method="post">
+                    <div>
+                        <label for="contact-name">Name</label>
+                        <input type="text" name="contact-name" id="contact-name">
+                    </div>
+                    <div>
+                        <label for="contact-email">Email</label>
+                        <input type="email" name="contact-email" id="contact-email">
+                    </div>
+                    <div>
+                        <label for="contact-message">Message</label>
+                        <textarea
+                            name="contact-message"
+                            id="contact-message"
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                    <div class="form-footer">
+                        <button class="btn">send message</button>
+                        <p class="muted">
+                            <em>All fields are required.we'll get back to you as soon as possible.</em>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <article id="store">
+            <div class="container">
+                <p class="section intro">Visit our store</p>
+                <h3 class="large">(307) 555-0133</h3>
+                <p class="large">2972 Westheimer Rd. Santa ans,illinois 85486</p>
+                <ul class="icons">
+                    <li>
+                        <a href="">
+                            <img src="./images/icon-twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/icon-facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/icon-instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </body>
+    <footer>
+        <div class="container small">
+            <p>
+                <em>
+                    &copy; copyright 2023 the chair company. All rights reserved. built with
+                    <a href="">wordpress</a>
+                    and
+                    <a href="">elementor</a>
+                    .
+                </em>
+            </p>
+        </div>
+    </footer>
+</html>
