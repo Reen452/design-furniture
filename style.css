@@ -117,16 +117,19 @@ ul li a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+  
 }
 
 .card {
   background-color: #fff;
   border-radius: 1rem;
-  overflow: hidden;
+  overflow:hidden;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
 }
 .card-info {
-  padding: 1rem;
+  padding: 0rem 1rem;
+ 
 }
 .price {
   color: #9f7657;
@@ -136,6 +139,8 @@ ul li a:hover {
 
 #our-chairs {
   background-color: #bdbabaa6;
+  height: auto;
+  
 }
 
 .intro {
@@ -169,7 +174,6 @@ ul li a:hover {
   /* font-size: 28px;
     font-weight: 400; */
   font-family: 'poppins';
-  width: 100%;
 }
 .number {
   line-height: 64px;
